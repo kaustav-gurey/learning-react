@@ -1,0 +1,30 @@
+.main{
+    margin-top: 100px;
+}
+.google{
+    width: 40%;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+.search-bar{
+    width: 400px;
+    line-height: 24px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #dfe1e5;
+    display: block;
+    margin: 0px auto 0px auto;  
+    border-radius: 24px;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #dfe1e5;
+    margin: 30px 5px ;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+
+}

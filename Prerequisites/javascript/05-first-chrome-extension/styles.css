@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 440px;
+}
+#input-el{
+    border: 1px solid #5f9340;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #5f9340;
+    color: azure;
+    border : 2px solid #5f9340;
+    padding: 10px 30px;
+    font-weight:bolder;
+    margin-right:5px;
+}
+#delete-btn{
+    color:#5f9340;
+    background-color:#ffffff;  
+}
+
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+li{
+    margin-top: 5px;
+}
+/* format anchor tags but those only inside list items */
+a{
+    color:#5f9340;
+}

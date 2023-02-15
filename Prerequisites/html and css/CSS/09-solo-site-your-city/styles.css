@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+h2{
+    margin:0;
+}
+#hero{
+    margin: 0;
+    background-image: url(images/kolkata.webp);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:beige;
+    
+
+}
+#middle{
+    background-image:linear-gradient(#e9c46a,#f1faee);
+    height:400px;
+    margin: 0;
+    text-align: center;
+    padding-top: 45px
+}
+#place-list{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.places-to-visit{
+    margin: 0 50px 0 50px;
+}
+.places{
+    width: 100px;
+    border-radius: 50%;
+}
+#card{
+    margin: 50px auto;
+    background-color: #a8dadc;
+    width: 450px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid #1d3557;
+    color: #1d3557;
+}
+#heading{
+    background-color: #1d3557;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+#sub-heading{
+    background-color: #457b9d;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+#guide{
+    width: 180px;
+}
+#details{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
