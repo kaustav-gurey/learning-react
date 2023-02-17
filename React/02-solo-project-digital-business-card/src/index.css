@@ -1,0 +1,8 @@
+body{
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}

@@ -1,0 +1,49 @@
+card{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+\info > h1{
+  color:#ffffff;
+  font-weight: 700;
+}
+info > h4{
+  color: #F3BF99;
+  
+}
+info >p > small > a{
+  color: #F5F5F5;
+  text-decoration: none;
+}
+#photo{
+  height:400px;
+  width:400px;
+  border-radius: 10px 10px 0 0;
+}
+nav{
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+nav {
+  background-color: #1A1B21;
+  width:400px;
+}
+data{
+  padding:10px 50px;
+  background-color: #1A1B21;
+  width: 300px;
+
+}
+interests > h3, about > h3{
+  color: #F5F5F5;
+  font-weight:700;
+  margin-top: 0;
+
+}
+interests > p, about > p{
+  color: #DCDCDC;
+  font-weight:400;
+
+}
