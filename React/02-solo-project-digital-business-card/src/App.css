@@ -1,17 +1,17 @@
 card{
-  width: 350px;
+  /* width: 350px; */
   display: flex;
   flex-direction: column;
-  
-  
 }
-\info > h1{
+info > h1{
   color:#ffffff;
   font-weight: 700;
+  margin-bottom:10px;
 }
 info > h4{
   color: #F3BF99;
-  
+  margin-top: 0;
+  margin-bottom:10px; 
 }
 info >p > small > a{
   color: #F5F5F5;
@@ -31,10 +31,22 @@ nav {
   width:400px;
 }
 data{
-  padding:10px 50px;
+  padding:10px 30px;
   background-color: #1A1B21;
-  width: 300px;
+  width: 340px;
 
+}
+footer{
+  display:flex;
+  justify-content: space-between;
+  background-color: #161619;
+  padding: 20px 60px;
+  width: 280px;
+  border-radius: 0 0 10px 10px;
+}
+.logo{
+  height: 30px;
+  width: 30px;
 }
 interests > h3, about > h3{
   color: #F5F5F5;
@@ -45,5 +57,39 @@ interests > h3, about > h3{
 interests > p, about > p{
   color: #DCDCDC;
   font-weight:400;
+
+}
+.btn-text{
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 40px;
+  border-radius: 7px;
+}
+.btn-logo{
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+btns{
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-top:25px;
+}
+#mail-btn{
+  /* background: linear-gradient(0deg, #D1D5DB, #D1D5DB); */
+  background-color: #D1D5DB;
+  color: #374151;;
+
+}
+#linkedin-btn{
+  /* background: linear-gradient(0deg, #D1D5DB, #D1D5DB); */
+  background-color:#5093E2;
+  color: #ffffff;
 
 }
