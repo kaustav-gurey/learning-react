@@ -1,0 +1,30 @@
+nav{
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  height: 55px;
+}
+#nav-logo{
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+nav > p{
+  font-weight: 400;
+}
+card{
+  display: flex;
+  height: 170px;
+  width: 470px;
+}
+.card-img{
+  height: 170px;
+  width: 125px;
+  border-radius: 5px;
+}
+.location-icon{
+  height: 10px;
+  width: 7px;
+}
