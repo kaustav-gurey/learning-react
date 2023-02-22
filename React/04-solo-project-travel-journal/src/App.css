@@ -14,17 +14,55 @@ nav{
 nav > p{
   font-weight: 400;
 }
+.card-list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;;
+}
 card{
   display: flex;
   height: 170px;
-  width: 470px;
+  width: 495px;
+  color: #2B283A;
+  padding-top: 40px;
 }
 .card-img{
   height: 170px;
   width: 125px;
   border-radius: 5px;
+  margin-right: 20px;
 }
 .location-icon{
   height: 10px;
   width: 7px;
+  margin-right: 4px;
+}
+.location-section{
+  margin-bottom:0;
+}
+.place-location{
+  font-size: 11px;
+  letter-spacing: 0.17em;
+}
+.place-location-link{
+  color: #918E9B;
+  font-size: 10px;
+  margin-left:12px;
+}
+
+.place-title{
+  margin : 0;
+  font-size: 25px;
+}
+.place-date{
+  margin-bottom: 0;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 11px;
+}
+.place-details{
+  font-size: 11px;
+  line-height: 150%;
+  margin-top:9px;
 }
