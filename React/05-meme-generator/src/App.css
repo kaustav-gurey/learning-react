@@ -1,42 +1,59 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#header-img{
+  height: 26px;
+  width: 32px;
+  margin-right: 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.header{
+  height: 25px;
+  background: linear-gradient(90deg, #672280,1.2%, #A626D3 100%);
+  padding: 20px 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+#project-title{
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: 'Karla', sans-serif;
+  margin-right: auto;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputs{
+  margin-top: 35px;
+  display: flex;
+  gap: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.inputs > input{
+  width: 14.5rem;
+  height: 2.2rem;
+  border: 1px solid #D5D4D8;
+  border-radius: 0.3rem;
+  text-indent: 0.3rem;
 }
-
-.card {
-  padding: 2em;
+.inputs >input:focus{
+  outline: none;
 }
-
-.read-the-docs {
-  color: #888;
+#form > button{
+  margin: 1rem;
+  width: 30.75rem;
+  height: 2.5rem;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border: none;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+#meme{
+  margin-top:1rem;
+  max-width: 30.75rem;
 }
