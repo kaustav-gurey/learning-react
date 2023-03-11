@@ -1,15 +1,55 @@
 main{
   background-color: #F5F5F5;
+  font-family: Karla, sans-serif;
   border-radius: 10px;
   min-height: 320px;
   max-width: 800px; 
+  padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.die{
+.die-face{
   height: 36px;
   width: 36px;
+  border-radius: 4px;
   background-color: aqua;
-  text-align: center;
-  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color : #2B283A;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.dice-container{
+  display: grid;
+  grid-template-columns: 36px 36px 36px 36px 36px ;
+  grid-template-rows: 36px 36px;
+  grid-gap: 20px;
+  padding: 30px;
+}
+.btn{
+  min-height: 40px;
+  min-width: 60px;
+  border-radius: 4px;
+  background-color: #5035FF;
+  font-family: Karla, sans-serif;
+  color: #ffffff;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  padding: 10px 30px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.instructions{
+  max-width: 280px;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+.title{
+  margin: 10px;
 }
